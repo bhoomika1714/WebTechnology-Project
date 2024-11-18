@@ -1,6 +1,4 @@
-Here’s a **page-wise work division** where each team member takes full ownership of a page and is responsible for everything from designing to testing. This approach ensures that each member has a clear focus and responsibility over the complete page development lifecycle.
 
----
 
 ### **1. Home Page (User Page - Waste Reporting)**
 

@@ -1,4 +1,18 @@
-
+```
+|-- assets/
+|   |-- css/
+|       |-- common.css
+|       |-- pages/
+|           |-- home.css
+|           |-- dashboard.css
+|-- index.html
+|-- pages/
+    |-- home.html
+    |-- press_dashboard.html
+    |-- admin_dashboard.html
+    |-- notifications.html
+    |-- admin_profile.html
+```
 
 ### **1. Home Page (User Page - Waste Reporting)**
 

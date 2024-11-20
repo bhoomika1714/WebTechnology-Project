@@ -1,4 +1,17 @@
 
+### **1. User Collection**
+Stores information about users who report waste.
+
+| Field Name         | Type     | Description                                           |
+|--------------------|----------|-------------------------------------------------------|
+| `_id`              | ObjectId | Unique identifier for the user.                      |
+| `name`             | String   | Full name of the user.                               |
+| `phone_number`     | String   | User's phone number.                                  |
+| `reports`          | Array    | Array of report references (links to the Reports collection). |
+| `created_at`       | Date     | Date when the user was created.                       |
+|`Govt issued Id`    |String    |Government-issued ID (e.g., Aadhar number, voter ID, etc.).|
+
+
 
 ### **1. Report Collection**
 Stores details about each waste report submitted by users.

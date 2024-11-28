@@ -1,17 +1,34 @@
 ```
-|-- assets/
-|   |-- css/
-|       |-- common.css
-|       |-- pages/
-|           |-- home.css
-|           |-- dashboard.css
-|-- index.html
-|-- pages/
-    |-- home.html
-    |-- press_dashboard.html
-    |-- admin_dashboard.html
-    |-- notifications.html
-    |-- admin_profile.html
+client/
+|-- src/
+|   |-- assets/                  # Folder for storing images, fonts, and other static assets
+|   |   |-- images/              # For images like logos, background images, etc.
+|   |   |-- fonts/               # For fonts if needed
+|   |-- components/              # React Components
+|   |   |-- Home.js              # Home Page Component
+|   |   |-- PressDashboard.js    # Dashboard Component
+|   |   |-- AdminDashboard.js    # Admin Dashboard Component
+|   |   |-- Notifications.js     # Notifications Component
+|   |   |-- AdminProfile.js      # Admin Profile Component
+|   |-- styles/                  # CSS Styles
+|   |   |-- common.css           # Common Styles
+|   |   |-- home.css             # Home Page Styles
+|   |   |-- dashboard.css        # Dashboard Styles
+|   |-- App.js                   # Main React App Component
+|   |-- index.js                 # Entry point for React
+|
+server/                           # Backend-related files (Node.js)
+|-- routes/
+|   |-- reports.js               # Routes for report-related functionality
+|   |-- notifications.js         # Routes for notifications-related functionality
+|   |-- admin.js                 # Routes for admin-related functionality
+|-- models/
+|   |-- Report.js                # Model for reports
+|   |-- Notification.js          # Model for notifications
+|   |-- Admin.js                 # Model for admin
+|-- app.js                        # Main server entry file
+|-- .env                          # Environment variables (e.g., database credentials)
+
 ```
 
 ### **1. Home Page (User Page - Waste Reporting)**

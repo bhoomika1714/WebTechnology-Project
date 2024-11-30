@@ -17,7 +17,7 @@ This project aligns with SDG 11, which aims to make cities and human settlements
 
 3. **Target 11.2:**  
    **Provide access to safe and sustainable infrastructure for all**  
-   Although indirectly, resolving waste management issues promotes cleaner urban spaces, contributing to safer and healthier environments, especially in public areas.  
+ 
 
 4. **Target 11.7:**  
    **Provide safe, inclusive, and accessible green and public spaces**  
